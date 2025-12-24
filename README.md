@@ -18,9 +18,8 @@ Project ini dibuat untuk latihan / eksperimen REST API menggunakan Golang.
 
 ## ⚙️ Environment Variables
 
-Untuk cara menggunakannya silahkan clone
-jika sudah lalu go mod tidy
-lalu untuk menjalankannya go run cmd/server/main.go
+Untuk cara menggunakannya silahkan clone jika sudah lalu go mod tidy lalu untuk
+menjalankannya go run cmd/server/main.go
 
 Project ini menggunakan file `.env` untuk konfigurasi environment.  
 File `.env` **tidak ikut di-push ke repository** (sudah di `.gitignore`).
@@ -41,3 +40,4 @@ DB_NAME=tes_purchasedb
 JWT_SECRET=supersecretkey
 WEBHOOK_URL=https://webhook.site/4a3608a4-e71e-43c4-b955-fdbfe893bc01
 
+```
